@@ -1,8 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/******************************************************
+‘***  Project 5 - 234Tree Word Counter
+‘***  Gabriel Brown
+‘******************************************************
+‘*** To Demonstrate a 234Tree Data Structure
+‘***
+‘******************************************************
+‘*** 11/07/2017
+‘******************************************************
+‘*****************************************************/
 
 /**
  *
@@ -88,12 +93,7 @@ public class Node234 {
 					itemArray[j+1] = newItem;
 					return j+1;
 				}
-                                else
-                                {
-                                    itemArray[j].count++;
-                                    return j;
-                                    //count?
-                                }
+
 			}//end else (not null)
 		}//end for
 		itemArray[0] = newItem;

@@ -218,7 +218,7 @@ public class Tree234 {
                         {
                             answer += thisNode.displayNode();
                             totalCount += thisNode.countNode();
-                            return answer;
+                            break;
                         }
                         
 			
